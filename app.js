@@ -16,7 +16,7 @@ while (counter == 0){
     let entertainmentSelected = generator(entertainments);
     let transportationSelected = generator(transportations);
     let resultsSelected = `Destination: ${destinationSelected}\nRestaurant: ${restaurantSelected}\nEntertainment: ${entertainmentSelected}\nTransportation: ${transportationSelected}`;
-if (confirm(`Press OK to confirm your day trip.\nPress Cancel to have destinations re-selected. \n\n${results}`)) {
+if (confirm(`Press OK to confirm your day trip.\nPress Cancel to have destinations re-selected. \n\n${resultsSelected}`)) {
     counter = 1;
     console.log(resultsSelected);
   }
